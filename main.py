@@ -13,6 +13,7 @@ def handle_command(command):
     elif "play music" in command and is_allowed("media"):
         webbrowser.open('https://zenless-zone-zero-music.app/')
     elif "open game" in command and is_allowed("hoyoplay"):
+        speak("Opening Game")
         subprocess.run("D:\Gamedata\HoYoPlay\launcher.exe")
     elif "say hi" in command and is_allowed("say hi"):
         speak("Hi, I'm Lathra")
