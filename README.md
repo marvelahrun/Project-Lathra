@@ -12,6 +12,7 @@ Available:
 
 You can modify or create your custom voice commands by configuring the *main.py*, *permissions.json*, and *modules*.
 Folder Structure:
+```
 Project-Lathra/
 ├── main.py
 ├── config/
@@ -20,3 +21,4 @@ Project-Lathra/
 │   ├── browser.py
 │   ├── media.py
 │   └── system.py
+```
