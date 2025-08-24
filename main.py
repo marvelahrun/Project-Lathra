@@ -11,16 +11,13 @@ def handle_command(command):
     if "open browser" in command and is_allowed("browser"):
         browser.open_browser()
     elif "play music" in command and is_allowed("media"):
-        webbrowser.open('https://zenless-zone-zero-music.app/')
-    elif "open game" in command and is_allowed("hoyoplay"):
-        speak("Opening Game")
-        subprocess.run("D:\Gamedata\HoYoPlay\launcher.exe")
+        webbrowser.open('https://music.youtube.com/')
     elif "say hi" in command and is_allowed("say hi"):
-        speak("Hi, I'm Lathra")
+        speak("Hi, I'm Lathra. Your personal AI Assistant")
     elif "ping youtube" in command and is_allowed("youtubeping"):
         subprocess.run('ping youtube.com')
     elif "you may sleep" in command and is_allowed("sleep"):
-        speak("See you again, master")
+        speak("See you again")
         exit()
     else:
         speak("Sorry, I can't do that or it is not permitted.")
@@ -30,6 +27,6 @@ if __name__ == "__main__":
     while True:
         print("[Listening for wake word...]")
         listen_for_wakeword()
-        speak("Yes, Master?")
+        speak("Hello! how can I help you?")
         command = recognize_command()
         handle_command(command)
