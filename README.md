@@ -7,6 +7,12 @@ You can download from releases, or you can clone this repository.
 git clone https://github.com/MarvelAhrun/Project-Lathra.git
 ```
 
+# How to run
+Open your terminal in this folder, and run this command:
+```
+python main.py
+```
+
 # Voice Commands
 Say "Hello Lathra", and Lathra will run the available commands you say.  
 Available:  
