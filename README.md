@@ -1,5 +1,5 @@
 # Description
-A simple personal AI assistant project made just for fun.
+A simple personal artificial assistant project made just for fun.
 
 # Installation
 You can download from releases, or you can clone this repository.
